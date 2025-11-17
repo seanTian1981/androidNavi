@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background">
+
+    <androidx.camera.view.PreviewView
+        android:id="@+id/cameraPreview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/controlsLayout"
+        android:importantForAccessibility="no" />
+
+    <TextView
+        android:id="@+id/statusText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:text="@string/please_aim_at_text"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@color/button_text"
+        android:background="@color/button_background"
+        android:gravity="center"
+        android:padding="24dp"
+        android:importantForAccessibility="yes" />
+
+    <TextView
+        android:id="@+id/recognizedText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/controlsLayout"
+        android:textSize="20sp"
+        android:textColor="@color/button_text"
+        android:background="@color/button_background"
+        android:padding="16dp"
+        android:maxLines="5"
+        android:scrollbars="vertical"
+        android:importantForAccessibility="yes" />
+
+    <LinearLayout
+        android:id="@+id/controlsLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:background="@color/background">
+
+        <Button
+            android:id="@+id/captureButton"
+            style="@style/LargeButton"
+            android:text="@string/capture_text"
+            android:layout_margin="8dp" />
+
+        <Button
+            android:id="@+id/repeatButton"
+            style="@style/LargeButton"
+            android:text="@string/repeat_last_text"
+            android:layout_margin="8dp"
+            android:visibility="gone" />
+
+    </LinearLayout>
+
+</RelativeLayout>

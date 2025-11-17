@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp"
+    android:background="@color/background">
+
+    <TextView
+        android:id="@+id/welcomeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/welcome_message"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:textColor="@color/text_primary"
+        android:layout_marginBottom="32dp"
+        android:importantForAccessibility="yes"
+        android:contentDescription="@string/welcome_message" />
+
+    <Button
+        android:id="@+id/navigationButton"
+        style="@style/LargeButton"
+        android:text="@string/navigation_button"
+        android:contentDescription="@string/accessibility_navigation_button" />
+
+    <Button
+        android:id="@+id/ocrButton"
+        style="@style/LargeButton"
+        android:text="@string/ocr_button"
+        android:contentDescription="@string/accessibility_ocr_button" />
+
+    <Button
+        android:id="@+id/settingsButton"
+        style="@style/LargeButton"
+        android:text="@string/settings_button"
+        android:contentDescription="@string/accessibility_settings_button" />
+
+</LinearLayout>

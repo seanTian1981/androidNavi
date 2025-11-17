@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">声景校园</string>
+    
+    <!-- Main Activity -->
+    <string name="welcome_message">欢迎使用声景校园</string>
+    <string name="navigation_button">校园导航</string>
+    <string name="ocr_button">文字识别</string>
+    <string name="settings_button">设置</string>
+    
+    <!-- Navigation Activity -->
+    <string name="navigation_title">校园导航</string>
+    <string name="select_destination">选择目的地</string>
+    <string name="start_navigation">开始导航</string>
+    <string name="stop_navigation">停止导航</string>
+    <string name="current_location">当前位置</string>
+    <string name="destination">目的地</string>
+    <string name="calculating_route">正在计算路线</string>
+    <string name="navigation_started">导航已开始</string>
+    <string name="navigation_stopped">导航已停止</string>
+    <string name="arrived">您已到达目的地</string>
+    
+    <!-- Destinations -->
+    <string name="teaching_building_1">第一教学楼</string>
+    <string name="teaching_building_2">第二教学楼</string>
+    <string name="library">图书馆</string>
+    <string name="cafeteria">食堂</string>
+    <string name="dormitory">宿舍楼</string>
+    <string name="laboratory">实验楼</string>
+    <string name="gym">体育馆</string>
+    <string name="admin_building">行政楼</string>
+    
+    <!-- Navigation Instructions -->
+    <string name="turn_left">左转</string>
+    <string name="turn_right">右转</string>
+    <string name="go_straight">直行</string>
+    <string name="distance_meters">距离%1$d米</string>
+    <string name="instruction_format">前方%1$d米%2$s</string>
+    
+    <!-- OCR Activity -->
+    <string name="ocr_title">文字识别</string>
+    <string name="capture_text">拍摄文字</string>
+    <string name="please_aim_at_text">请对准文字</string>
+    <string name="text_recognized">识别到文字</string>
+    <string name="no_text_found">未识别到文字</string>
+    <string name="processing">正在处理</string>
+    <string name="repeat_last_text">重复上一次</string>
+    
+    <!-- Permissions -->
+    <string name="permission_camera">需要相机权限以识别文字</string>
+    <string name="permission_location">需要位置权限以提供导航</string>
+    <string name="permission_audio">需要录音权限以支持语音命令</string>
+    <string name="permission_denied">权限被拒绝，部分功能将无法使用</string>
+    <string name="grant_permission">授予权限</string>
+    
+    <!-- Accessibility -->
+    <string name="accessibility_navigation_button">导航按钮，双击启动校园导航</string>
+    <string name="accessibility_ocr_button">识别按钮，双击启动文字识别</string>
+    <string name="accessibility_settings_button">设置按钮，双击打开设置</string>
+    
+    <!-- Errors -->
+    <string name="error_no_location">无法获取当前位置</string>
+    <string name="error_no_route">无法计算路线</string>
+    <string name="error_camera">相机初始化失败</string>
+    <string name="error_ocr">文字识别失败</string>
+    <string name="error_tts">语音引擎不可用</string>
+</resources>

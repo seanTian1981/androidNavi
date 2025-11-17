@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/background">
+
+    <TextView
+        android:id="@+id/instructionText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/select_destination"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:textColor="@color/text_primary"
+        android:gravity="center"
+        android:padding="16dp"
+        android:importantForAccessibility="yes" />
+
+    <Spinner
+        android:id="@+id/destinationSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:textSize="22sp"
+        android:padding="16dp"
+        android:importantForAccessibility="yes"
+        android:contentDescription="@string/select_destination" />
+
+    <TextView
+        android:id="@+id/currentLocationText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/current_location"
+        android:textSize="20sp"
+        android:textColor="@color/text_secondary"
+        android:padding="16dp"
+        android:importantForAccessibility="yes" />
+
+    <TextView
+        android:id="@+id/navigationStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:textColor="@color/navigation_active"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:padding="24dp"
+        android:importantForAccessibility="yes" />
+
+    <Button
+        android:id="@+id/startNavigationButton"
+        style="@style/LargeButton"
+        android:text="@string/start_navigation"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/stopNavigationButton"
+        style="@style/LargeButton"
+        android:text="@string/stop_navigation"
+        android:visibility="gone"
+        android:backgroundTint="@color/error" />
+
+</LinearLayout>

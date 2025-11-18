@@ -1,0 +1,100 @@
+{
+  "campus_name": "示范大学",
+  "locations": [
+    {
+      "id": "loc1",
+      "name": "第一教学楼",
+      "latitude": 39.9042,
+      "longitude": 116.4074,
+      "description": "主要教学区域，包含多个大型教室和实验室",
+      "category": "teaching",
+      "floor_count": 5,
+      "facilities": ["教室", "实验室", "自习室"]
+    },
+    {
+      "id": "loc2",
+      "name": "第二教学楼",
+      "latitude": 39.9052,
+      "longitude": 116.4084,
+      "description": "理工科教学楼，设有专业实验室",
+      "category": "teaching",
+      "floor_count": 6,
+      "facilities": ["教室", "专业实验室", "计算机室"]
+    },
+    {
+      "id": "loc3",
+      "name": "图书馆",
+      "latitude": 39.9062,
+      "longitude": 116.4094,
+      "description": "大学图书馆，藏书丰富",
+      "category": "library",
+      "floor_count": 4,
+      "facilities": ["阅览室", "自习室", "电子阅览室", "无障碍通道"]
+    },
+    {
+      "id": "loc4",
+      "name": "食堂",
+      "latitude": 39.9072,
+      "longitude": 116.4104,
+      "description": "学生食堂，提供多样化餐饮",
+      "category": "cafeteria",
+      "floor_count": 2,
+      "facilities": ["餐厅", "清真餐厅", "西餐厅"]
+    },
+    {
+      "id": "loc5",
+      "name": "宿舍楼",
+      "latitude": 39.9082,
+      "longitude": 116.4114,
+      "description": "学生宿舍，设有电梯",
+      "category": "dormitory",
+      "floor_count": 8,
+      "facilities": ["宿舍", "洗衣房", "活动室", "无障碍设施"]
+    },
+    {
+      "id": "loc6",
+      "name": "实验楼",
+      "latitude": 39.9092,
+      "longitude": 116.4124,
+      "description": "实验室大楼，各类科研设施",
+      "category": "laboratory",
+      "floor_count": 7,
+      "facilities": ["化学实验室", "物理实验室", "生物实验室"]
+    },
+    {
+      "id": "loc7",
+      "name": "体育馆",
+      "latitude": 39.9102,
+      "longitude": 116.4134,
+      "description": "体育运动中心，室内运动场所",
+      "category": "gym",
+      "floor_count": 3,
+      "facilities": ["篮球场", "羽毛球场", "健身房", "游泳池"]
+    },
+    {
+      "id": "loc8",
+      "name": "行政楼",
+      "latitude": 39.9112,
+      "longitude": 116.4144,
+      "description": "行政办公区，处理学生事务",
+      "category": "admin",
+      "floor_count": 5,
+      "facilities": ["教务处", "学生处", "财务处", "无障碍接待"]
+    }
+  ],
+  "paths": [
+    {"from": "loc1", "to": "loc2", "distance": 150},
+    {"from": "loc2", "to": "loc3", "distance": 200},
+    {"from": "loc3", "to": "loc4", "distance": 180},
+    {"from": "loc4", "to": "loc5", "distance": 220},
+    {"from": "loc5", "to": "loc6", "distance": 190},
+    {"from": "loc6", "to": "loc7", "distance": 210},
+    {"from": "loc7", "to": "loc8", "distance": 160}
+  ],
+  "accessibility_features": [
+    "所有建筑均设有无障碍通道",
+    "盲道覆盖主要路径",
+    "语音提示系统",
+    "触觉地图"
+  ]
+}
